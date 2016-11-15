@@ -32,6 +32,10 @@ group](https://www.meetup.com/AnonimowiAdmini/)
 That will be Lumesse office in Kraków. Details will be posted together with
 registration.
 
+## When?
+
+Probably 26th November 2016
+
 ## Agenda
 
 ### systemd-bin (1h)
