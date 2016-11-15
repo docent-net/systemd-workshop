@@ -55,7 +55,7 @@ there's enough time maybe we'll try to push logs to central repository?
 
 description TODO
 
-### developing systemd - aware apps
+### developing systemd - aware apps (until you die)
 
 We'll learn how to integrate Python (and maybe C and Java?) applications with 
 systemd making systemd aware of applications state. Thanks to that application 
