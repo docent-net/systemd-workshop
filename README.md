@@ -80,7 +80,6 @@ description TODO
 ### developing systemd - aware apps (until you die)
 
 We'll learn how to integrate Python (and maybe C and Java?) applications with 
-systemd making systemd aware of applications state. Thanks to that application 
-implementing functionalities like automated failover, restart and other
-emergency actions will be done without manual intervention and in a clear, and
-proper way.
+systemd making systemd aware of applications' state. Thanks to that application 
+operational aspects like automated failover, restart and others will be done 
+without manual intervention and in a clear, and proper way.
