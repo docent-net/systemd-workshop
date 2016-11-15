@@ -18,6 +18,20 @@ systemd 229
 You may install [Fedora 24](https://getfedora.org/) (server or workstation
 edition) - it already has systemd 229 installed.
 
+## How to register?
+
+We're still working on that. Follow **#systemdkrkworkshops** Twitter tag
+
+## Who's the organizer?
+
+That's actually community event. Organizer would be [Anonymous Admins
+group](https://www.meetup.com/AnonimowiAdmini/)
+
+## Venue?
+
+That will be Lumesse office in Kraków. Details will be posted together with
+registration.
+
 ## Agenda
 
 ### systemd-bin (1h)
