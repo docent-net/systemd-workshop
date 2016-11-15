@@ -1,7 +1,7 @@
 # systemd-workshop
 
 The main goal of this workshop is to introduce various aspects of systemd to
-all of you who haven't yet used it extensively.
+all of you who haven't used it extensively yet.
 
 ## Requirements
 
@@ -35,6 +35,10 @@ registration.
 ## When?
 
 Probably 26th November 2016
+
+## Who's gonna be the teacher?
+
+[Marcin Skarbek](https://www.linkedin.com/in/marcinskarbek) and [Maciej Lasyk](https://www.linkedin.com/in/maciej-lasyk-04819942)
 
 ## Agenda
 
