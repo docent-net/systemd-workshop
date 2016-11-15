@@ -1,16 +1,45 @@
 # systemd-workshop
 
-description TODO
+The main goal of this workshop is to introduce various aspects of systemd to
+all of you who haven't yet used it extensively.
 
 ## Requirements
 
-TODO
+Our main requirement is having Linux distribution with systemd version at least
+**229**. It might be installed on some virtual machine on your laptop. Just
+make sure it works and running following command returns required systemd
+version:
+
+```
+$ systemctl --version
+systemd 229
+```
+
+You may install [Fedora 24](https://getfedora.org/) (server or workstation
+edition) - it already has systemd 229 installed.
 
 ## Agenda
 
 ### systemd-bin (1h)
 
-description TODO
+During this part we'll discover various binaries provided by systemd and use
+some ot those:
+
+```
+systemd-path                  
+systemd-detect-virt             systemd-resolve               
+systemctl                       systemd-escape                  systemd-run                   
+systemd-analyze                 systemd-firstboot
+systemd-ask-password
+systemd-sysusers              
+systemd-bus-proxy               systemd-inhibit
+systemd-timesync              
+systemd-cat                     systemd-machine-id-setup
+systemd-tmpfiles              
+systemd-cgls                    systemd-network
+systemd-cgtop                   systemd-notify                                                
+systemd-coredump                systemd-nspawn                                                
+```
 
 ### unit files (2h)
 
@@ -18,7 +47,9 @@ description TODO
 
 ### journald (1h)
 
-description TODO
+Here be dragons. We'll dive into specifics of managing logs with journald.
+Starting with reading logs and finishing on creating very specific queries. If
+there's enough time maybe we'll try to push logs to central repository?
 
 ### systemd-nspawn (2h)
 
@@ -26,4 +57,8 @@ description TODO
 
 ### developing systemd - aware apps
 
-description TODO
+We'll learn how to integrate Python (and maybe C and Java?) applications with 
+systemd making systemd aware of applications state. Thanks to that application 
+implementing functionalities like automated failover, restart and other
+emergency actions will be done without manual intervention and in a clear, and
+proper way.
