@@ -1,3 +1,5 @@
+![PID1 for the sake!](http://maciej.lasyk.info/images/pid1.png)
+
 # systemd-workshop
 
 The main goal of this workshop is to introduce various aspects of systemd to
