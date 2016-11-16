@@ -22,7 +22,9 @@ edition) - it already has systemd 229 installed.
 
 ## How to register?
 
-We're still working on that. Follow **#systemdkrkworkshops** Twitter tag
+Registrations starts 17th Nov 2016 at 18:00 on http://systemd.evenea.pl
+
+We've got 25 slots.
 
 ## Who's the organizer?
 
@@ -31,12 +33,11 @@ group](https://www.meetup.com/AnonimowiAdmini/)
 
 ## Venue?
 
-That will be Lumesse office in Kraków. Details will be posted together with
-registration.
+That will be [Lumesse office in Kraków](https://goo.gl/zDxemw)
 
 ## When?
 
-Probably 26th November 2016
+26th November 2016, 11:00
 
 ## Who's gonna be the teacher?
 
