@@ -82,9 +82,9 @@ there's enough time maybe we'll try to push logs to central repository?
 
 We don't need Docker to play with containers, systemd-nspawn will let you run
 both system and aplication containers providing stable workflow and predictable behaviour.
-We'll learn how to create containers, restrict their capabiliteis and resources
+We'll learn how to create containers, restrict their capabilities and resources
 and write custom unit files for them. We'll also try to run Docker container under
-systemd-nspawn supervision to understand difrences and srong/weak points in both sollutions. 
+systemd-nspawn supervision to understand differences and strong/weak points in both sollutions. 
 
 ### developing systemd-aware apps (until you die)
 
