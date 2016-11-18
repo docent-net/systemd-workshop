@@ -20,6 +20,17 @@ systemd 229
 You may install [Fedora 24](https://getfedora.org/) (server or workstation
 edition) - it already has systemd 229 installed.
 
+Second requirement would be having installed Python in the 2.7 version (that's
+ok to have 3.x also, but it'll be up to you to make our code work on 3.x; we
+try to keep codebase as simple as possible in order to focus on what's really
+important). It'd be also very convenient to have
+[virtualenvwrapper](git@github.com:docent-net/systemd-workshop.git), but that's
+not a really requirement as long as you're ok with installing system - wide
+libraries on your laptop (or VM).
+
+Third requirement is **git**. That's ok if you're not very fluent with it -
+we'll show you what to do.
+
 ## How to register?
 
 Registrations starts 17th Nov 2016 at 18:00 on http://systemd.evenea.pl
