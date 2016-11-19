@@ -56,18 +56,18 @@ That will be [Lumesse office in Kraków](https://goo.gl/zDxemw)
 
 ## Agenda
 
-### systemd-bin (1h)
+### systemd-bin (0,5h)
 
 During this part we'll discover various binaries provided by systemd and use
 some ot those:
 
 ```
-systemd-path                  
-systemd-detect-virt             systemd-resolve               
+systemd-path                    bootctl                         busctl             
+systemd-detect-virt             systemd-resolve                 coredumpctl
 systemctl                       systemd-escape                  systemd-run                   
-systemd-analyze                 systemd-firstboot
-systemd-ask-password
-systemd-sysusers              
+systemd-analyze                 systemd-firstboot               hostnamectl
+systemd-ask-password            loginctl                        networkctl
+systemd-sysusers                timedatectl
 systemd-bus-proxy               systemd-inhibit
 systemd-timesync              
 systemd-cat                     systemd-machine-id-setup
@@ -77,7 +77,7 @@ systemd-cgtop                   systemd-notify
 systemd-coredump                systemd-nspawn                                                
 ```
 
-### unit files (2h)
+### unit files (1h)
 
 Unit files are a basic configuration tools in systemd which define behaviour for the whole system.
 We'll learn what types of unit files systemd provides, what is the purpose of them
