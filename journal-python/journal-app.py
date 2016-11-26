@@ -7,4 +7,4 @@ journal.send('Hello world')
 journal.send('Hello, again, world', FIELD2='Greetings!')
 
 stream = journal.stream('myapp', priority=3)
-res = stream.write('message...\n', )
+res = stream.write('message...\n')

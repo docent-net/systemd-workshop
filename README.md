@@ -86,7 +86,7 @@ We'll learn how to create containers, restrict their capabilities and resources
 and write custom unit files for them. We'll also try to run Docker container under
 systemd-nspawn supervision to understand differences and strong/weak points in both sollutions. 
 
-### developing systemd-aware apps (until you die)
+### developing systemd-aware apps (until you die) [systemd-notify.md](systemd-notify.md)
 
 We'll learn how to integrate Python (and maybe C and Java?) applications with 
 systemd making systemd aware of applications' state. Thanks to that application 

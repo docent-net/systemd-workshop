@@ -11,14 +11,14 @@ class App(object):
         self.create_logger()
 
     def start(self):
+        message_uuid = uuid.uuid4() # Debian Random generator XD
         while True:
-            print(1)
-            message_uuid = uuid.uuid4() # Debian Random generator XD
             self.log.warning(
                 "Message with ID %s",
                 message_uuid,
                 extra={'MESSAGE_ID': message_uuid}
             )
+            print('Hello {}'.format(message_uuid))
             sleep(3)
 
     def create_logger(self):
