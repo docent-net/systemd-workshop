@@ -97,6 +97,13 @@ Let's do something with journald:
     1. Verify your journal integrity with FSS keys: `journalctl --verify-key [path-to-key] --verify`
 1. journal & Python
     - check [journal-python](journal-python/) directory for a quick task:
+        - run **journal-app.py** and see code how it works
+        - run **journal-app-handler** and check how to integrate w/system 
+          logger
+        - register **journal-app-service.service** (enable / start)
+        - see `journalctl -u journal-app-service -o verbose`
+        - run **journal-reader** while **journal-app-service** is running. What
+          do you see? :)
 
 ### Do it @home ###
 
