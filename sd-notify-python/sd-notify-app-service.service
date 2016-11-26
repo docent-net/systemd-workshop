@@ -2,12 +2,10 @@
 Description=Simple sd-notify integration application
 
 [Service]
-# Note: setting PYTHONUNBUFFERED is necessary to see the output of this service in the journal
-# See https://docs.python.org/2/using/cmdline.html#envvar-PYTHONUNBUFFERED
-Environment=PYTHONUNBUFFERED=true
 Type=notify
 Restart=always
 ExecStart=/usr/bin/python3 /home/docent/git/conferences/systemd-workshop/sd-notify-python/sd-notify-app-service.py
+WatchdogSec=12
 
 [Install]
 WantedBy=multi-user.target
