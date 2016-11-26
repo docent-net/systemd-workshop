@@ -1,4 +1,4 @@
-## LAB 2: systemd journal ##
+## LAB 3: systemd journal ##
 
 **journald** is awesome e.g. for security concerns. Classical syslog based logs 
 might be spoofed easily by applications introducing as different applications. 
