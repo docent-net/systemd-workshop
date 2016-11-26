@@ -56,41 +56,25 @@ That will be [Lumesse office in Kraków](https://goo.gl/zDxemw)
 
 ## Agenda
 
-### systemd-bin (0,5h)
+### systemd-bin - [systemd-bin.md](systemd-bin.md)
 
 During this part we'll discover various binaries provided by systemd and use
-some ot those:
+some ot those.
 
-```
-systemd-path                    bootctl                         busctl             
-systemd-detect-virt             systemd-resolve                 coredumpctl
-systemctl                       systemd-escape                  systemd-run                   
-systemd-analyze                 systemd-firstboot               hostnamectl
-systemd-ask-password            loginctl                        networkctl
-systemd-sysusers                timedatectl
-systemd-bus-proxy               systemd-inhibit
-systemd-timesync              
-systemd-cat                     systemd-machine-id-setup
-systemd-tmpfiles              
-systemd-cgls                    systemd-network
-systemd-cgtop                   systemd-notify                                                
-systemd-coredump                systemd-nspawn                                                
-```
-
-### unit files (1h)
+### unit files
 
 Unit files are a basic configuration tools in systemd which define behaviour for the whole system.
 We'll learn what types of unit files systemd provides, what is the purpose of them
 and how to correctly write a new one. Thanks to that knowledge both creating quick ad hoc `service`
 and fairly complicated chain of `services` in separate `target` shouldn't be a problem. 
 
-### journald (1h)
+### journald [systemd-journal.md](systemd-journal.md)
 
 Here be dragons. We'll dive into specifics of managing logs with journald.
 Starting with reading logs and finishing on creating very specific queries. If
 there's enough time maybe we'll try to push logs to central repository?
 
-### systemd-nspawn (2h)
+### systemd-nspawn
 
 We don't need Docker to play with containers, systemd-nspawn will let you run
 both system and aplication containers providing stable workflow and predictable behaviour.

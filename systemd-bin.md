@@ -142,10 +142,12 @@ So systemd uses D-Bus for IPC (inter - process communication).
 
 - see current state of procs registered in bus: `busctl`
 - more info: https://freedesktop.org/wiki/Software/dbus/
-- check [dbus](dbus/) directory for a quick demo
+- check [dbus](dbus/) directory for a quick task:
     - `python server.py`
     - `python client.py`
     - jak on tam się dostał?
+    - Could you extend this a bit? Create another endpoint providing current
+      time and add a client method asking about this time?
 - `sudo busctl capture > test.pcap` + wireshark
 - `busctl tree`
 	
