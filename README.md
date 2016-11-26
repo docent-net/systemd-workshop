@@ -46,6 +46,10 @@ group](https://www.meetup.com/AnonimowiAdmini/)
 
 That will be [Lumesse office in Kraków](https://goo.gl/zDxemw)
 
+### WIFI? ###
+
+**Lumesse-Guest** / **Lumesse4488**
+
 ## When?
 
 26th November 2016, 11:00
