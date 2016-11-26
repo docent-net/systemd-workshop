@@ -150,6 +150,18 @@ So systemd uses D-Bus for IPC (inter - process communication).
       time and add a client method asking about this time?
 - `sudo busctl capture > test.pcap` + wireshark
 - `busctl tree`
+
+### Confining processes ###
+
+You may run any process inder systemd / cgroups confinement:
+
+- `systemd-run env`
+- `systemd-run -p BlockIOWeight=10 updatedb`
+- Timers:
+    - `date; systemd-run --on-active=30 --timer-property=AccuracySec=100ms /bin/touch /tmp/foo`
+    - `journalctl -b -u run-71.timer`
+- `systemd-run --scope -p BlockIOWeight=10 --user tmux`
+    - `tmux ls`
 	
 ### Do it @home ###
 
